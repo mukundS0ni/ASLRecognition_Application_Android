@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/frame_Surface"
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_marginTop="60dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:id="@+id/top_linear_layout"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/change_text"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@color/white"
+        android:id="@+id/bottom_linear_layout"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/teal_200"
+            android:id="@+id/add_button"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginRight="40dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/teal_200"
+            android:id="@+id/text_speech_button"
+            android:text="Speak"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/teal_200"
+            android:id="@+id/clear_button"
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>
