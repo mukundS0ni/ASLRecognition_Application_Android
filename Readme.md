@@ -21,4 +21,4 @@ Here are some screenshots of our ASL Recognition Application for Android:
 
 Feel free to explore the features and user interface of our ASL Recognition Application for Android through these screenshots.
 
-For more details, visit the [GitHub repository](<Your Repository URL>).
+For more details, visit the [GitHub repository](<https://github.com/mukundsrepository/ASLRecognition_Application_Android>).
