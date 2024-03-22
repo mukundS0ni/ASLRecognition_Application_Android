@@ -11,11 +11,6 @@ Here are some screenshots of our ASL Recognition Application for Android:
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/60322472/167256888-12d2b26a-fb37-4a25-8b4e-5f7cb40dd771.jpeg" width="300" alt="Screenshot 2">
-</p>
-
-
-<p align="center">
   <img src="https://user-images.githubusercontent.com/60322472/167256896-6ee4ba0f-a5fd-4b5b-9d25-b318968e6e54.jpeg" width="300" alt="Screenshot 4">
 </p>
 
